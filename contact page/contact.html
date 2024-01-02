@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/weather-icon.png" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+
+<body id="body">
+    <!-- ************nav bar section********************* -->
+    <nav class="navbar navbar-expand-lg py-md-4 position-relative w-100">
+        <div class="container">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="../images/weather_12607703.png" class="img" alt="cloud-home-icon">
+                <div class="img-caption">
+                    <span class="d-block fs-4 fw-semibold">Weather</span>
+                    <span class="d-block fs">tagline goes here</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex justify-content-center align-items-center">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link " href="#">News</a>
+                    <a class="nav-link " href="#">Live Cameras</a>
+                    <a class="nav-link " href="#">Photos</a>
+                    <a class="nav-link " href="#">Contacts</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- card weather section -->
+    <div class="container position-relative">
+        <div class="select position-absolute text-white"><a href="../index.html" class="text-gray text-decoration-none">Home</a> <i class="fa-solid fa-arrow-right text-gray"></i> Contact</div>
+    </div>
+    <div class="container position-relative">
+        <d class="weather-cast row position-absolute w-100 p-2">
+            <div class="col-md-5">
+                <iframe src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 430px; height: 300px;"></iframe>
+                <p><i class="fa-solid fa-location-crosshairs text-primary px-1"></i> Company Name INC. 2803 Avenue Street, Los Angeles</p>
+                <div class="d-flex justify-content-between ps-2 pe-4">
+                    <p><i class="fa-solid fa-mobile-screen-button text-warning px-1"></i>+1 800 314 235</p>
+                    <p><i class="fa-solid fa-envelope text-danger px-1"></i>contact@companyname.com</p>
+                </div>
+            </div>
+            <div class="col-md-6  offset-1">
+                <h2>Contact us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam </p>
+                <div class="row form">
+                    <div class="col-md-6">
+                        <input type="text" class="w-100 mb-1" placeholder="Your Name...">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="w-100 mb-1" placeholder="Your Email...">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="w-100 mb-1" placeholder="Company Name...">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="w-100 mb-1" placeholder="Website...">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="w-100 mt-1" cols="30" rows="10" placeholder="message..."></textarea>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-start">
+                        <button class="btn btn-info">Submit</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+    <!-- footer section -->
+    <footer id="footer" class="position-relative">
+        <div class="foot position-absolute">
+            <div class="mt-5 mb-2 mx-md-5 row">
+                <div class="col-md-6">
+                    <input type="text" class="subscribe" placeholder="Enter Your Email to subscribe...">
+                    <button class="btn sub-btn position-absolute">subscribe</button>
+                </div>
+                <div class="icons col-md-4 offset-2 d-flex">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </div>
+            <span class="d-block mt-4 mb-5 mx-5 px-3">Copyright 20sunnyompany name. Designed by Themezy. All rights reserved</span>
+        </div>
+
+    </footer>
+
+    <!-- **************video background***************** -->
+    <video autoplay muted loop id="myVideo">
+                <source src="../images/weather-bg.mp4" type="video/mp4">
+            </video>
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/weather-icon.png" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+
+<body id="body">
+    <!-- ************nav bar section********************* -->
+    <nav class="navbar navbar-expand-lg py-md-4 position-relative w-100">
+        <div class="container">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="images/weather_12607703.png" class="img" alt="cloud-home-icon">
+                <div class="img-caption">
+                    <span class="d-block fs-4 fw-semibold">Weather</span>
+                    <span class="d-block fs">tagline goes here</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex justify-content-center align-items-center">
+                    <a class="nav-link  active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link " href="#">News</a>
+                    <a class="nav-link " href="#">Live Cameras</a>
+                    <a class="nav-link " href="#">Photos</a>
+                    <a class="nav-link " href="contact page/contact.html">Contacts</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- card weather section -->
+    <div class="container position-relative">
+        <input id="citySearch" class="position-absolute select" placeholder="Find Your Location...">
+        <button id="findBtn" class="btnn btn position-absolute">Find</button>
+    </div>
+    <div class="container position-relative">
+        <div class="weather-cast row position-absolute w-100">
+            <div id="today" class="col-md-4 f-day py-3">
+
+            </div>
+            <div id="secondDay" class="col-md-4 s-day py-3">
+
+            </div>
+            <div id="thirdDay" class="col-md-4 t-day py-3">
+
+            </div>
+        </div>
+    </div>
+    <!-- footer section -->
+    <footer id="footer" class="position-relative">
+        <div class="foot position-absolute">
+            <div class="mt-5 mb-2 mx-md-5 row">
+                <div class="col-md-6">
+                    <input type="text" class="subscribe" placeholder="Enter Your Email to subscribe...">
+                    <button class="btn sub-btn position-absolute">subscribe</button>
+                </div>
+                <div class="icons col-md-4 offset-2 d-flex">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </div>
+            <span class="d-block mt-4 mb-5 mx-5 px-3">Copyright 20sunnyompany name. Designed by Themezy. All rights reserved</span>
+        </div>
+
+    </footer>
+
+    <!-- **************video background***************** -->
+    <video autoplay muted loop id="myVideo">
+                <source src="images/Blue Green Animated Simple Welcome Travel Vlog YouTube Intro.mp4" type="video/mp4">
+            </video>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

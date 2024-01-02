@@ -1,0 +1,207 @@
+body {
+    background-color: #262936;
+}
+
+:root {
+    --blue: #18C2E0;
+    --sky-blue: #009AD8;
+    --dark: #1E202B;
+    --dark-trans: rgba(30, 32, 43, 0.8);
+    --washed-dark: #262936;
+    --white: #fffff2;
+    --gray: #BFC1C0;
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: var(--font) !important;
+}
+
+
+/* -----------------------background----------------------- */
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+
+/* -------------------nav bar styling--------------------- */
+
+.navbar {
+    background-color: var(--dark);
+}
+
+.fs {
+    font-size: 11px;
+}
+
+.img {
+    width: 10%;
+}
+
+.img-caption {
+    margin-left: 5px;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-link {
+    margin: 10px;
+    font-size: 14px;
+    color: #fff !important;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+.nav-link:hover {
+    color: var(--blue) !important;
+    border: 2px solid var(--sky-blue);
+    border-radius: 20px;
+}
+
+.active {
+    color: var(--blue) !important;
+    border: 2px solid var(--sky-blue);
+    border-radius: 20px;
+}
+
+
+/* -------------select section----------------- */
+
+.select {
+    top: 100px;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: var(--dark);
+    border: none;
+    border-radius: 40px;
+}
+
+.select:focus {
+    color: var(--white);
+    background-color: var(--dark);
+    border-color: var(--dark);
+    outline: 0;
+}
+
+.btnn {
+    font-size: 18px;
+    top: 102.5px;
+    left: 94%;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: var(--sky-blue);
+    transition: all 0.2s;
+}
+
+.btnn:hover {
+    background-color: var(--blue);
+}
+
+
+/* weather cast styling */
+
+.weather-cast {
+    border-radius: 10px;
+    background-color: var(--dark-trans);
+    top: 220px;
+    color: #fff;
+}
+
+.s-day {
+    background-color: var(--dark);
+}
+
+.text-gray {
+    color: var(--gray);
+}
+
+
+/* contact form section */
+
+.form input {
+    border: 1px solid var(--washed-dark);
+    border-radius: 20px;
+    background-color: var(--dark);
+    padding: 5px;
+}
+
+.form textarea {
+    border: 1px solid var(--washed-dark);
+    border-radius: 20px;
+    background-color: var(--dark);
+    padding: 5px;
+}
+
+
+/* footer section */
+
+.foot {
+    background-color: var(--washed-dark);
+    width: 100%;
+    z-index: 33;
+    top: 750px;
+}
+
+.subscribe {
+    top: 100px;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: var(--dark);
+    border: none;
+    border-radius: 40px;
+}
+
+.subscribe:focus {
+    color: var(--white);
+    background-color: var(--dark);
+    border-color: var(--dark);
+    outline: 0;
+}
+
+.sub-btn {
+    font-size: 18px;
+    top: 27%;
+    left: 40%;
+    padding: 7px 20px;
+    border-radius: 40px;
+    background-color: var(--sky-blue);
+    transition: all 0.2s;
+}
+
+.sub-btn:hover {
+    background-color: var(--blue);
+}
+
+.icon {
+    color: var(--sky-blue);
+    width: 35px;
+    height: 35px;
+    margin: auto 10px;
+    border: 1px solid var(--dark);
+    padding: 20px;
+    background-color: var(--dark);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.icon:hover {
+    background-color: var(--sky-blue);
+    color: var(--white);
+}
+
+#footer span {
+    color: var(--white);
+    font-size: 14px;
+}
